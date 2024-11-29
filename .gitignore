@@ -1,0 +1,60 @@
+# Ignore everything inside the data directory
+data/*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Build directories and files
+dist/
+build/
+
+# System files
+*.pid
+*.seed
+*.cover
+
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.out
+
+# Secrets and credentials
+.env
+.env.local
+.env.*.local
+
+# Ignore all other files
+# ! (exceptions) can be added below to track specific files or directories
+
